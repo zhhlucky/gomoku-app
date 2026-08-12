@@ -1,0 +1,7 @@
+interface:
+  display_name: "五子棋成品模板"
+  short_description: "从成熟模板创建、生成和定向修改带 Rapfi 教练模式的五子棋软件"
+  default_prompt: "使用 $gomoku-app 直接从标准模板创建一个完整五子棋软件。"
+
+policy:
+  allow_implicit_invocation: true

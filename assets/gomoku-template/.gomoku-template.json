@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "template": "gomoku-app",
+  "product": "落子复盘",
+  "baselineVersion": "PV5.2-coach-2026-08-12",
+  "engine": "Rapfi 0.43.01",
+  "boardSize": 15,
+  "rules": "freestyle",
+  "principalVariationLength": 5
+}

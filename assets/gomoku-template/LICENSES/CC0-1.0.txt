@@ -1,0 +1,14 @@
+CC0 1.0 Universal
+
+The Rapfi network weight files bundled in this project are identified by the
+upstream Rapfi network repository as released under CC0-1.0.
+
+Upstream repository:
+https://github.com/dhbloo/rapfi-networks
+
+Upstream license text:
+https://github.com/dhbloo/rapfi-networks/blob/main/LICENSE
+
+SPDX-License-Identifier: CC0-1.0
+
+This file is a notice and source pointer. The upstream license text controls.

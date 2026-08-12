@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "engine": {
+    "name": "Rapfi",
+    "version": "0.43.01",
+    "license": "GPL-3.0-only",
+    "upstreamRepository": "https://github.com/dhbloo/rapfi",
+    "releaseReference": "https://github.com/dhbloo/rapfi/releases/tag/250615",
+    "sourceReference": "https://github.com/dhbloo/rapfi/tree/250615",
+    "releaseCommitShownByGitHub": "1be1551",
+    "officialReleaseAsset": "Rapfi-engine.7z",
+    "officialReleaseAssetSha256": "1a3e24024062a153ac079060ee9589a37c6bdd1ecc54fed3908793c519594e05",
+    "provenance": "verified",
+    "verificationMethod": "official-release-archive-sha256-and-byte-for-byte-extraction-comparison",
+    "verifiedAt": "2026-08-12",
+    "verifiedAgainstArchiveSha256": "1a3e24024062a153ac079060ee9589a37c6bdd1ecc54fed3908793c519594e05",
+    "files": [
+      { "path": "pbrain-rapfi-linux-clang-avx2", "sha256": "4217C3202CDD8DBB58524110D9064299E314A695E58DDBD055D9A4DD99DE201C" },
+      { "path": "pbrain-rapfi-linux-clang-avx512", "sha256": "C38B17D0C7372220D581072BA79E935F02A744EA2F0CC09AD0D3F04DF857A734" },
+      { "path": "pbrain-rapfi-linux-clang-avx512vnni", "sha256": "B1E313A98D8C6D683ECD6E0B2C1F976AEE9F643636B20FEAD44FF89453567801" },
+      { "path": "pbrain-rapfi-linux-clang-avxvnni", "sha256": "A3B372055B7974D5F4C285B54178DA2C07B769860070024449A5BEBA85A8AF43" },
+      { "path": "pbrain-rapfi-linux-clang-sse", "sha256": "4553BABAC37221372752B3BF16C225D5818C8E1FDEF7E4D777762269A4A5FA03" },
+      { "path": "pbrain-rapfi-macos-apple-silicon", "sha256": "E851A094351C2E77348AA5AE0C071A38EC06EB01419F4060F6169FC3C56871F1" },
+      { "path": "pbrain-rapfi-windows-avx2.exe", "sha256": "1E02497433FB765626F954C895B0B92E057AC12A76C76318ABE74D4050914E8E" },
+      { "path": "pbrain-rapfi-windows-avx512.exe", "sha256": "793487E431411E2B4290FB4F32EFE8F74B105CAA3EAD9B19C35789FE1974EC55" },
+      { "path": "pbrain-rapfi-windows-avx512vnni.exe", "sha256": "2BE3DD18D28005B0C122883C9AB9EA33DE5757D9A150923FCA0DCC6902908006" },
+      { "path": "pbrain-rapfi-windows-avxvnni.exe", "sha256": "94CE6437A441D979CDF1D6E3E8C5154100DE27C3DD6E861D28AE9F87A98460F8" },
+      { "path": "pbrain-rapfi-windows-sse.exe", "sha256": "DC98082D74E862547FD7F45130399782F21F6023AE15676A2AD471ECD1DACA4C" }
+    ]
+  },
+  "networks": {
+    "license": "CC0-1.0",
+    "upstreamRepository": "https://github.com/dhbloo/rapfi-networks",
+    "licenseReference": "https://github.com/dhbloo/rapfi-networks/blob/main/LICENSE",
+    "files": [
+      { "path": "config.toml", "sha256": "32B9180C91247541D399CEEF62906D5FFEB48E34EB5F261612987633820D5D3C" },
+      { "path": "mix9svqfreestyle_bsmix.bin.lz4", "sha256": "6BC0D1B0FF8E1D857F7F412923CD458F38F1A435087C91AE71FEC3676C23EF62" },
+      { "path": "mix9svqrenju_bs15_black.bin.lz4", "sha256": "7AB8C974C30DA07717CE6A504616A62AC8C981500503F0CED0FADEFD3F46C5EC" },
+      { "path": "mix9svqrenju_bs15_white.bin.lz4", "sha256": "A31F318518D3B5630489054D9EB013FD5353C553999640C2BCFD8D95E6FE4E4E" },
+      { "path": "mix9svqstandard_bs15.bin.lz4", "sha256": "84334F5DB96F45B3E36EBDDE06D2259D878AE1EB347B7CF74574AC908B8D9E7D" },
+      { "path": "model210901.bin", "sha256": "2FA08CB15CF240D9533548C3E011B03D46809F6858362E97EE873D0632AA2015" }
+    ]
+  }
+}

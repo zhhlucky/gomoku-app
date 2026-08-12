@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.next/
+.vinext/
+.wrangler/
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db

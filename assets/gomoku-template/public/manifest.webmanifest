@@ -1,0 +1,10 @@
+{
+  "name": "落子复盘",
+  "short_name": "落子复盘",
+  "description": "用大白话看懂五子棋每一步为什么掉分。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f7f6",
+  "theme_color": "#157a73",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

@@ -1,0 +1,39 @@
+name: 验证 / Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: 项目与许可证检查 / Project and license checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库 / Check out repository
+        uses: actions/checkout@v4
+
+      - name: 配置 Node.js / Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 启用 Corepack / Enable Corepack
+        run: corepack enable
+
+      - name: 安装依赖 / Install dependencies
+        working-directory: assets/gomoku-template
+        run: pnpm install --frozen-lockfile --config.strict-dep-builds=false
+
+      - name: 重建必要依赖 / Rebuild required dependencies
+        working-directory: assets/gomoku-template
+        run: pnpm rebuild --pending
+
+      - name: 严格分发审计 / Strict distribution audit
+        run: node scripts/audit-distribution.mjs assets/gomoku-template --strict
+
+      - name: 完整项目验证 / Full project verification
+        run: node scripts/verify-project.mjs assets/gomoku-template --full

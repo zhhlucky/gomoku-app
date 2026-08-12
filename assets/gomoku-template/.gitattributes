@@ -1,0 +1,4 @@
+*.exe binary
+*.bin binary
+*.lz4 binary
+pbrain-rapfi-* binary
