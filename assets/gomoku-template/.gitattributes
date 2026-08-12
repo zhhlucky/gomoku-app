@@ -2,3 +2,4 @@
 *.bin binary
 *.lz4 binary
 pbrain-rapfi-* binary
+work/rapfi-engine/config.toml binary

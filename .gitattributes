@@ -2,3 +2,4 @@
 *.bin binary
 *.lz4 binary
 pbrain-rapfi-* binary
+assets/gomoku-template/work/rapfi-engine/config.toml binary
